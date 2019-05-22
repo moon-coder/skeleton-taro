@@ -5,6 +5,7 @@
   "description": "Taro native shell",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "fix":"cd node_modules/react-native/third-party/glog-0.3.4 &&  ../../scripts/ios-configure-glog.sh",
     "test": "jest"
   },
   "repository": {
