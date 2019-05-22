@@ -1,14 +1,11 @@
-
-// import frameMain from "@/pages/frame/reducers/main";
-
-    import goodsInfoMain from "@/pages/goods/info/reducers/main";
+import goodsInfoMain from "../../pages/goods/info/reducers/main";
+import counter from  './counter';
     //mark1//
 
 export default {
   //mark2//
-    goodsInfoMain,
-
-  // frameMain
+  counter
+  //   goodsInfoMain,
 } ;
 
 
