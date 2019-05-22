@@ -10,9 +10,9 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "lib",
     "lib": ["dom","es2015","es2017"],
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictNullChecks": false,
     "sourceMap": true,
     "baseUrl": ".",
     "rootDir": ".",
@@ -24,7 +24,8 @@
       "node_modules/@types"
     ],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@/redux/*": ["src/redux/*"]
     }
   },
   "exclude": [

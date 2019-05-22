@@ -4,7 +4,7 @@ import { Provider } from '@tarojs/redux'
 
 import Index from './pages/index'
 
-import configStore from './store'
+import store from './redux/store'
 
 import './app.less'
 
@@ -13,8 +13,6 @@ import './app.less'
 // if (process.env.NODE_ENV !== 'production' && process.env.TARO_ENV === 'h5')  {
 //   require('nerv-devtools')
 // }
-
-const store = configStore()
 
 class App extends Component {
 
@@ -27,7 +25,8 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/index/index'
+    'pages/goods/info/index',
+    //pagePath//
     ],
     window: {
       backgroundTextStyle: 'light',

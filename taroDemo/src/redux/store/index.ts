@@ -3,7 +3,8 @@ import thunkMiddleware from 'redux-thunk';
 import rootReducer from '../reducers';
 
 //@ts-ignore
-const composeEnhancers =__DEV__ &&
+const composeEnhancers =
+  // __DEV__ &&
   typeof window === 'object' &&
   window['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'] ?
     window['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__']({

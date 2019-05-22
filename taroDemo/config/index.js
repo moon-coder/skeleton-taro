@@ -1,3 +1,5 @@
+var path =require('path');
+
 const config = {
   projectName: 'taroDemo',
   date: '2019-5-22',
@@ -9,6 +11,11 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  alias: {
+    '@/webapi': path.resolve(__dirname, '..', 'src/webapi'),
+    '@/redux': path.resolve(__dirname, '..', 'src/redux'),
+    '@/pages': path.resolve(__dirname, '..', 'src/pages'),
+  },
   plugins: {
     babel: {
       sourceMap: true,
