@@ -1,11 +1,9 @@
-import goodsInfoMain from "../../pages/goods/info/reducers/main";
-import counter from  './counter';
-    //mark1//
 
+import counter from '@/pages/counter';
+import goodsInfoMain from "@/pages/goods/info/reducers/main";
 export default {
-  //mark2//
-  counter
-  //   goodsInfoMain,
+  goodsInfoMain,
+  counter,
 } ;
 
 
