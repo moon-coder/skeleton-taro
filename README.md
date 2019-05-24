@@ -9,18 +9,16 @@ https://nervjs.github.io/taro/docs/GETTING-STARTED.html
 ## h5运行
 
 
-## 运行
+```shell
+#开发
+npm run dev:h5
+
+#发布打包
+npm run build:h5
+```
 
 
 ## rn运行;
-
-### name名称一致
-修改本项目package.json name字段, 与taro-native-shell项目保持一致
-
-或修改 https://nervjs.github.io/taro/docs/react-native.html#%E9%85%8D%E7%BD%AE-appjson
-或修改 taro-native-shell ==>AppDelegate.m
-https://nervjs.github.io/taro/docs/react-native.html#%E4%BD%BF%E7%94%A8-xcode-%E5%90%AF%E5%8A%A8
-
 
 ### 运行
 
@@ -41,6 +39,17 @@ npm run fix
 
 
 
+note:  要确保name名称一致
+
+修改本项目package.json name字段, 与taro-native-shell项目保持一致
+
+或修改 https://nervjs.github.io/taro/docs/react-native.html#%E9%85%8D%E7%BD%AE-appjson
+
+或修改 taro-native-shell ==>AppDelegate.m
+
+https://nervjs.github.io/taro/docs/react-native.html#%E4%BD%BF%E7%94%A8-xcode-%E5%90%AF%E5%8A%A8
+
 
 # 注意事项
+
 为保证三端 尽量使用taro-ui组件;
