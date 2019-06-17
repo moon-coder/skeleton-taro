@@ -25,7 +25,6 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/test1/index',
       'pages/goods/info/index',
     'pages/index/index',
     //pagePath//
