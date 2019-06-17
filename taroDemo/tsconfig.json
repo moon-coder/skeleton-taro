@@ -24,8 +24,9 @@
       "node_modules/@types"
     ],
     "paths": {
-      "@/*": ["src/*"],
-      "@/redux/*": ["src/redux/*"]
+      "@/**": ["src/**"],
+      "api": ["src/webapi"],
+      "@/*": ["src/*"]
     }
   },
   "exclude": [

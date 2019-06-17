@@ -52,7 +52,7 @@ interface Index {
     dispatch(asyncAdd())
   }
 }))
-class Index extends Component<any,any> {
+class Index extends Component<PageOwnProps, PageState> {
 
     /**
    * 指定config的类型声明为: Taro.Config

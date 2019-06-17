@@ -12,9 +12,12 @@ const config = {
   sourceRoot: 'src',
   outputRoot: 'dist',
   alias: {
-    '@/webapi': path.resolve(__dirname, '..', 'src/webapi'),
-    '@/redux': path.resolve(__dirname, '..', 'src/redux'),
     '@/pages': path.resolve(__dirname, '..', 'src/pages'),
+    '@/redux': path.resolve(__dirname, '..', 'src/redux'),
+    'api': path.resolve(__dirname, '..', 'src/webapi'),
+    '@/*': path.resolve(__dirname, '..', 'src/*'),
+    // '@/redux': path.resolve(__dirname, '..', 'src/redux'),
+    // '@/pages': path.resolve(__dirname, '..', 'src/pages'),
   },
   plugins: {
     babel: {

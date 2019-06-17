@@ -1,0 +1,476 @@
+{
+  "type":"taro-redux",
+  "api": {
+    "swaggerUrl": "http://172.19.26.161:8790/v2/api-docs",
+    "dir": "./src/webapi",
+    "mock": {
+      "mockApi": {
+        "MeituanConsumeController": [],
+        "MeituanCouponController": [],
+        "InvoiceProjectBaseController": [
+          "queryProjectSwitchByIds",
+          "findAllInvoiceProject"
+        ],
+        "AccountBaseController": [
+          "findValidOfflineAccounts"
+        ],
+        "RefundOrderController": [
+          "queryRefundByReturnOrderNo"
+        ],
+        "CustomerBalanceBaseController": [
+          "setPayPassword",
+          "validateCode",
+          "sendPayVerifyCode",
+          "balancePayPassword",
+          "checkCustomerPayPwd",
+          "passwordByForgot",
+          "validatePayCode"
+        ],
+        "StoreExpressCompanyBaseController": [
+          "allExpressCompanyList",
+          "findCheckedExpressCompanies"
+        ],
+        "LoginBaseController": [
+          "checkAccount",
+          "checkSmsByForgot",
+          "checkSmsByRegister",
+          "checkSmsByWebModalRegister",
+          "login",
+          "loginWithVerificationCode",
+          "sendLoginCode",
+          "passwordByForgot",
+          "patchca",
+          "perfect",
+          "register",
+          "registerModal",
+          "isVisitWithLogin",
+          "validateSmsByForgot"
+        ],
+        "ImageBaseController": [
+          "uploadFile"
+        ],
+        "ResourceBaseController": [
+          "uploadFile"
+        ],
+        "config-controller": [
+          "getSkuQrCode",
+          "listConfigs"
+        ],
+        "CouponCateController": [
+          "listCouponCate"
+        ],
+        "CouponCodeBaseController": [
+          "checkoutCoupons",
+          "customerFetchCoupon",
+          "listMyCouponList"
+        ],
+        "CouponInfoController": [
+          "getCouponStarted",
+          "listGoodsByCouponId",
+          "getCouponStartedFront",
+          "listCouponForGoodsDetailFront",
+          "listCouponForGoodsListFront",
+          "listCouponForGoodsDetail",
+          "listCouponForGoodsList"
+        ],
+        "CustomerAccountBaseController": [
+          "addCustomerAccount",
+          "editCustomerAccount",
+          "deleteCustomerAccount_",
+          "findById",
+          "findAll"
+        ],
+        "CustomerDeliveryAddressBaseController": [
+          "saveAddress",
+          "findById",
+          "updateAddress",
+          "deleteAddress_",
+          "findAddressList",
+          "findDefaultAddress",
+          "setDefaultAddress",
+          "addCouponCate",
+          "modifyCouponCate",
+          "sendEmailToFinance",
+          "deleteCustomerEmailByCustomerEmailId_",
+          "listCustomerEmailByCustomerId",
+          "add",
+          "delete_",
+          "count",
+          "info",
+          "hasInvalid",
+          "isGoodsFollow"
+        ],
+        "CustomerBaseController": [
+          "checkToken",
+          "findCustomerBaseInfo",
+          "updateCustomerBaseInfo",
+          "findCustomerCenterInfo",
+          "getCustomerBaseInfo",
+          "findCustomerMobile",
+          "sendVerifiedCode",
+          "getLoginCustomerInfo",
+          "sendVerifiedCodeNew",
+          "changeNewMobile",
+          "validateVerifiedCode"
+        ],
+        "InviteCustomerRecordController": [
+          "countInviteCustomer",
+          "getDistributionSetting",
+          "pageInviteCustomer",
+          "pageMyCustomer",
+          "pageValidInvite"
+        ],
+        "CustomerFundsController": [
+          "page",
+          "statistics"
+        ],
+        "BossCustomerController": [
+          "queryGrowthValueIntroduction",
+          "queryGrowthValue"
+        ],
+        "CustomerInvoiceBaseController": [
+          "findCustomerInvoiceByCustomerId",
+          "saveCustomerInvoice",
+          "updateCustomerInvoice",
+          "findInfoByCustomerId",
+          "findInvoices"
+        ],
+        "CustomerLevelBaseController": [
+          "getCustomerLevelRightsInfos"
+        ],
+        "CustomerLevelRightsBaseController": [
+          "queryCustomerLevelRightsList"
+        ],
+        "CustomerPointsController": [
+          "page",
+          "share"
+        ],
+        "RechargeableCardCodeController": [
+          "page",
+          "detail"
+        ],
+        "TimingCardCodeController": [
+          "page",
+          "detail"
+        ],
+        "QQServiceController": [
+          "qqDetail"
+        ],
+        "distribution-controller": [
+          "loginIsDistributor",
+          "checkStatus",
+          "queryDistributorInfoByCustomerId",
+          "queryDistributorInfoByCustomerIdUsingHEAD",
+          "queryDistributorInfoByCustomerId_",
+          "queryDistributorInfoByCustomerIdUsingOPTIONS",
+          "queryDistributorInfoByCustomerIdUsingPATCH",
+          "getDistributorStatus",
+          "queryOpenFlag",
+          "getPerformanceByInviteedId",
+          "getPerformanceByInviteedIdUsingHEAD",
+          "getPerformanceByInviteedId_",
+          "getPerformanceByInviteedIdUsingOPTIONS",
+          "getPerformanceByInviteedIdUsingPATCH",
+          "getSetting",
+          "getSettingAndInvitor",
+          "getSettingAndInvitorUsingHEAD",
+          "getSettingAndInvitor_",
+          "getSettingAndInvitorUsingOPTIONS",
+          "getSettingAndInvitorUsingPATCH",
+          "storeBags",
+          "verifyStoreBagsSku"
+        ],
+        "distribution-customer-ranking-controller": [
+          "getRanking"
+        ],
+        "DistributionSettingController": [
+          "findOne"
+        ],
+        "DistributionGoodsMatterController": [
+          "deleteList",
+          "page"
+        ],
+        "DistributionMiniProgramController": [
+          "getSkuQrCode",
+          "distributionMiniProgramQrCode"
+        ],
+        "DistributionPerformanceController": [
+          "queryByDay",
+          "queryByLast6Months"
+        ],
+        "distributor-goods-info-controller": [
+          "add",
+          "count",
+          "delete",
+          "modifySequence"
+        ],
+        "CustomerDrawCashController": [
+          "addCustomerDrawCash",
+          "cancel",
+          "countDrawCashSumByCustId",
+          "detail",
+          "page"
+        ],
+        "StoreCustomerController": [
+          "entry"
+        ],
+        "ExpressCompanyController": [
+          "findOne",
+          "findCheckedExpressCompany",
+          "queryExpressCompanyList"
+        ],
+        "MarketingFullGiftController": [
+          "getGiftByMarketingIdWithOutLogin",
+          "getGiftByMarketingId"
+        ],
+        "GoodsBrandBaseController": [
+          "list"
+        ],
+        "GoodsCateBaseController": [
+          "list"
+        ],
+        "SearchHistoryBaseController": [
+          "queryDistribute",
+          "addDistribute",
+          "deleteDistribute_",
+          "query",
+          "add",
+          "delete_",
+          "queryStore",
+          "addStore",
+          "deleteStore_"
+        ],
+        "GoodsBaseController": [
+          "getSkuQrCode",
+          "shopGoodsDetail",
+          "detail",
+          "spuListFront",
+          "goodslist",
+          "unLoginDetail"
+        ],
+        "GoodsInfoBaseController": [
+          "queryGoodsListBySkuIds",
+          "propsList",
+          "list",
+          "getShopInfo",
+          "addDistributorGoods",
+          "shopSkuList",
+          "shopSkuListToC",
+          "detail",
+          "skuListFront",
+          "unLoginDetail",
+          "unLoginList"
+        ],
+        "GoodsEvaluateController": [
+          "addGoodsEvaluate",
+          "editGoodsEvaluate",
+          "evaluateInfo",
+          "getGoodsAndStore",
+          "getGoodsEvaluateNum",
+          "page",
+          "spuGoodsEvaluatePage"
+        ],
+        "GoodsTobeEvaluateController": [
+          "getGoodsTobeEvaluateNum",
+          "pageGoodsTobeEvaluate"
+        ],
+        "SystemGrowthValueConfigController": [
+          "isGrowthValueOpen"
+        ],
+        "MarketingController": [
+          "getMarketingById"
+        ],
+        "MobileSettingController": [
+          "getAboutUs",
+          "getAppShareSetting",
+          "getAppUpgrade"
+        ],
+        "MobileConfigController": [
+          "listConfigs"
+        ],
+        "PayController": [
+          "checkPayState",
+          "appAliPay",
+          "create",
+          "getAppId",
+          "getLittleProgramOpenId",
+          "getOpenIdByChannel",
+          "getWxConfig",
+          "getWxOpenId",
+          "items",
+          "wxPayUnifiedorderForApp",
+          "wxPayUnifiedorderForJSApi",
+          "wxPayUnifiedorderForLittleProgram",
+          "wxPayUnifiedorderForMweb"
+        ],
+        "PayBaseController": [
+          "queryGatewayIsOpen",
+          "queryUnionB2bConfig",
+          "queryUnionB2bConfigUsingHEAD",
+          "queryUnionB2bConfig_",
+          "queryUnionB2bConfigUsingOPTIONS",
+          "queryUnionB2bConfigUsingPATCH",
+          "getRecordStatus"
+        ],
+        "AuthorizeController": [
+          "authorize",
+          "authorizePhoneLogin"
+        ],
+        "PetCouponInfoController": [
+          "getCouponStarted"
+        ],
+        "PetRechargeableCardController": [
+          "page",
+          "detail"
+        ],
+        "PetTimingCardController": [
+          "page",
+          "detail"
+        ],
+        "SystemPointsConfigController": [
+          "query",
+          "isGoodsEvaluate"
+        ],
+        "ReturnOrderController": [
+          "create",
+          "createRefund",
+          "transfer",
+          "isReturnable"
+        ],
+        "ReturnOrderBaseController": [
+          "cancel",
+          "deliver",
+          "findByTid",
+          "findCompletedByTid",
+          "images",
+          "page",
+          "findReturnReason",
+          "refundOrder",
+          "returnItems",
+          "returnLogistics",
+          "tradeDetails",
+          "findReturnWay",
+          "findById",
+          "findByIdUsingHEAD",
+          "findById_",
+          "findByIdUsingOPTIONS",
+          "findByIdUsingPATCH"
+        ],
+        "PurchaseBaseController": [
+          "addFollow",
+          "batchAdd",
+          "clearLoseGoods_",
+          "countGoods",
+          "miniFrontInfo",
+          "frontInfo",
+          "queryGoodsMarketingList",
+          "modifyGoodsMarketing",
+          "mergePurchase",
+          "miniInfo",
+          "add",
+          "edit",
+          "delete_",
+          "info",
+          "calcMarketingByMarketingId",
+          "calcMarketingByMarketingIdFront"
+        ],
+        "StoreLevelBaseController": [
+          "queryStoreCustomerLevel",
+          "queryStoreLevelList"
+        ],
+        "StoreHistoryBaseController": [
+          "query",
+          "add",
+          "delete_"
+        ],
+        "StoreBaseController": [
+          "queryStore",
+          "queryStoreFront",
+          "queryStoreDocument",
+          "queryStoreVip",
+          "queryStoreVipFront",
+          "queryStoreUnlogin"
+        ],
+        "StoreFollowBaseController": [
+          "isGoodsFollow",
+          "add",
+          "delete_",
+          "storeFollowNum"
+        ],
+        "StoreFollowController": [
+          "info"
+        ],
+        "StoreCateBaseController": [
+          "list"
+        ],
+        "StoreTobeEvaluateController": [
+          "getStoreTobeEvaluateNum",
+          "pageStoreTobeEvaluate"
+        ],
+        "StoreController": [
+          "list"
+        ],
+        "SystemController": [
+          "findBaseConfig",
+          "findConfig"
+        ],
+        "ThirdLoginController": [
+          "sendCode",
+          "queryLinkedAccountFlags",
+          "removeBind_"
+        ],
+        "WechatLoginController": [
+          "weChatQuickLogin",
+          "weChatBind",
+          "getWechatLoginSetDetail",
+          "getWechatServerStatus"
+        ],
+        "WeChatPublicPlatformController": [
+          "getSign"
+        ],
+        "TradeBaseController": [
+          "cancel",
+          "commit",
+          "confirm",
+          "customerOrderPage",
+          "defaultPay",
+          "tradeDeliverRecord",
+          "logistics",
+          "distributeDetails",
+          "encloses",
+          "getFreight",
+          "tradeItems",
+          "immediateBuy",
+          "invoice",
+          "page",
+          "createPayOrder",
+          "payOrder",
+          "getPurchaseItems",
+          "shippItemsByLogisticsNo",
+          "commitResp",
+          "storeBagsBuy",
+          "details"
+        ],
+        "XsiteController": [
+          "skuList"
+        ]
+      },
+      "ignoreApi": {
+        "CouponInfoController": [
+          "listGoodsByCouponId"
+        ],
+        "GoodsInfoBaseController": [
+          "addDistributorGoods",
+          "shopSkuList",
+          "list",
+          "unLoginList",
+          "shopSkuListToC",
+          "skuListFront"
+        ]
+      }
+    },
+    "exclude": [
+      "TradeSettingController"
+    ]
+  }
+}

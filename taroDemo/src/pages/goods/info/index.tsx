@@ -1,6 +1,7 @@
 import {View, Button, Text} from '@tarojs/components';
 import Taro, {Component, Config} from '@tarojs/taro';
 
+import { ComponentClass } from 'react'
 import {connect} from '@tarojs/redux';
 import './index.less';
 import * as T from './types';
@@ -46,4 +47,4 @@ class GoodsInfo extends Component<T.IProps, any> {
   }
 }
 
-export default GoodsInfo as any;
+export default GoodsInfo as ComponentClass<Partial<T.IProps>,any>;

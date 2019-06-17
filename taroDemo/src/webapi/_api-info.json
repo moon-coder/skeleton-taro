@@ -1,0 +1,1160 @@
+{
+  "AccountBaseController": {
+    "fileName": "AccountBaseController",
+    "methods": {
+      "findValidOfflineAccounts": {
+        "responseTs": []
+      }
+    }
+  },
+  "AuthorizeController": {
+    "fileName": "AuthorizeController",
+    "methods": {
+      "authorize": {
+        "responseTs": []
+      },
+      "authorizePhoneLogin": {
+        "responseTs": []
+      }
+    }
+  },
+  "BossCustomerController": {
+    "fileName": "BossCustomerController",
+    "methods": {
+      "queryGrowthValueIntroduction": {
+        "responseTs": []
+      },
+      "queryGrowthValue": {
+        "responseTs": []
+      }
+    }
+  },
+  "CouponCateController": {
+    "fileName": "CouponCateController",
+    "methods": {
+      "listCouponCate": {
+        "responseTs": []
+      }
+    }
+  },
+  "CouponCodeBaseController": {
+    "fileName": "CouponCodeBaseController",
+    "methods": {
+      "checkoutCoupons": {
+        "responseTs": []
+      },
+      "customerFetchCoupon": {
+        "responseTs": []
+      },
+      "listMyCouponList": {
+        "responseTs": []
+      }
+    }
+  },
+  "CouponInfoController": {
+    "fileName": "CouponInfoController",
+    "methods": {
+      "getCouponStarted": {
+        "responseTs": []
+      },
+      "listGoodsByCouponId": {
+        "responseTs": []
+      },
+      "getCouponStartedFront": {
+        "responseTs": []
+      },
+      "listCouponForGoodsDetailFront": {
+        "responseTs": []
+      },
+      "listCouponForGoodsListFront": {
+        "responseTs": []
+      },
+      "listCouponForGoodsDetail": {
+        "responseTs": []
+      },
+      "listCouponForGoodsList": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerAccountBaseController": {
+    "fileName": "CustomerAccountBaseController",
+    "methods": {
+      "addCustomerAccount": {
+        "responseTs": []
+      },
+      "editCustomerAccount": {
+        "responseTs": []
+      },
+      "deleteCustomerAccount_": {
+        "responseTs": []
+      },
+      "findById": {
+        "responseTs": []
+      },
+      "findAll": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerBalanceBaseController": {
+    "fileName": "CustomerBalanceBaseController",
+    "methods": {
+      "setPayPassword": {
+        "responseTs": []
+      },
+      "validateCode": {
+        "responseTs": []
+      },
+      "sendPayVerifyCode": {
+        "responseTs": []
+      },
+      "balancePayPassword": {
+        "responseTs": []
+      },
+      "checkCustomerPayPwd": {
+        "responseTs": []
+      },
+      "passwordByForgot": {
+        "responseTs": []
+      },
+      "validatePayCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerBaseController": {
+    "fileName": "CustomerBaseController",
+    "methods": {
+      "checkToken": {
+        "responseTs": []
+      },
+      "findCustomerBaseInfo": {
+        "responseTs": []
+      },
+      "updateCustomerBaseInfo": {
+        "responseTs": []
+      },
+      "findCustomerCenterInfo": {
+        "responseTs": []
+      },
+      "getCustomerBaseInfo": {
+        "responseTs": []
+      },
+      "findCustomerMobile": {
+        "responseTs": []
+      },
+      "sendVerifiedCode": {
+        "responseTs": []
+      },
+      "getLoginCustomerInfo": {
+        "responseTs": []
+      },
+      "sendVerifiedCodeNew": {
+        "responseTs": []
+      },
+      "changeNewMobile": {
+        "responseTs": []
+      },
+      "validateVerifiedCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerDeliveryAddressBaseController": {
+    "fileName": "CustomerDeliveryAddressBaseController",
+    "methods": {
+      "saveAddress": {
+        "responseTs": []
+      },
+      "findById": {
+        "responseTs": []
+      },
+      "updateAddress": {
+        "responseTs": []
+      },
+      "deleteAddress_": {
+        "responseTs": []
+      },
+      "findAddressList": {
+        "responseTs": []
+      },
+      "findDefaultAddress": {
+        "responseTs": []
+      },
+      "setDefaultAddress": {
+        "responseTs": []
+      },
+      "addCouponCate": {
+        "responseTs": []
+      },
+      "modifyCouponCate": {
+        "responseTs": []
+      },
+      "sendEmailToFinance": {
+        "responseTs": []
+      },
+      "deleteCustomerEmailByCustomerEmailId_": {
+        "responseTs": []
+      },
+      "listCustomerEmailByCustomerId": {
+        "responseTs": []
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "count": {
+        "responseTs": []
+      },
+      "info": {
+        "responseTs": []
+      },
+      "hasInvalid": {
+        "responseTs": []
+      },
+      "isGoodsFollow": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerDrawCashController": {
+    "fileName": "CustomerDrawCashController",
+    "methods": {
+      "addCustomerDrawCash": {
+        "responseTs": []
+      },
+      "cancel": {
+        "responseTs": []
+      },
+      "countDrawCashSumByCustId": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerFundsController": {
+    "fileName": "CustomerFundsController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "statistics": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerInvoiceBaseController": {
+    "fileName": "CustomerInvoiceBaseController",
+    "methods": {
+      "findCustomerInvoiceByCustomerId": {
+        "responseTs": []
+      },
+      "saveCustomerInvoice": {
+        "responseTs": []
+      },
+      "updateCustomerInvoice": {
+        "responseTs": []
+      },
+      "findInfoByCustomerId": {
+        "responseTs": []
+      },
+      "findInvoices": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerLevelBaseController": {
+    "fileName": "CustomerLevelBaseController",
+    "methods": {
+      "getCustomerLevelRightsInfos": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerLevelRightsBaseController": {
+    "fileName": "CustomerLevelRightsBaseController",
+    "methods": {
+      "queryCustomerLevelRightsList": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerPointsController": {
+    "fileName": "CustomerPointsController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "share": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionGoodsMatterController": {
+    "fileName": "DistributionGoodsMatterController",
+    "methods": {
+      "deleteList": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionMiniProgramController": {
+    "fileName": "DistributionMiniProgramController",
+    "methods": {
+      "getSkuQrCode": {
+        "responseTs": []
+      },
+      "distributionMiniProgramQrCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionPerformanceController": {
+    "fileName": "DistributionPerformanceController",
+    "methods": {
+      "queryByDay": {
+        "responseTs": []
+      },
+      "queryByLast6Months": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionSettingController": {
+    "fileName": "DistributionSettingController",
+    "methods": {
+      "findOne": {
+        "responseTs": []
+      }
+    }
+  },
+  "ExpressCompanyController": {
+    "fileName": "ExpressCompanyController",
+    "methods": {
+      "findOne": {
+        "responseTs": []
+      },
+      "findCheckedExpressCompany": {
+        "responseTs": []
+      },
+      "queryExpressCompanyList": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsBaseController": {
+    "fileName": "GoodsBaseController",
+    "methods": {
+      "getSkuQrCode": {
+        "responseTs": []
+      },
+      "shopGoodsDetail": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      },
+      "spuListFront": {
+        "responseTs": []
+      },
+      "goodslist": {
+        "responseTs": []
+      },
+      "unLoginDetail": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsBrandBaseController": {
+    "fileName": "GoodsBrandBaseController",
+    "methods": {
+      "list": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsCateBaseController": {
+    "fileName": "GoodsCateBaseController",
+    "methods": {
+      "list": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsEvaluateController": {
+    "fileName": "GoodsEvaluateController",
+    "methods": {
+      "addGoodsEvaluate": {
+        "responseTs": []
+      },
+      "editGoodsEvaluate": {
+        "responseTs": []
+      },
+      "evaluateInfo": {
+        "responseTs": []
+      },
+      "getGoodsAndStore": {
+        "responseTs": []
+      },
+      "getGoodsEvaluateNum": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": []
+      },
+      "spuGoodsEvaluatePage": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsInfoBaseController": {
+    "fileName": "GoodsInfoBaseController",
+    "methods": {
+      "queryGoodsListBySkuIds": {
+        "responseTs": []
+      },
+      "propsList": {
+        "responseTs": []
+      },
+      "list": {
+        "responseTs": []
+      },
+      "getShopInfo": {
+        "responseTs": []
+      },
+      "addDistributorGoods": {
+        "responseTs": []
+      },
+      "shopSkuList": {
+        "responseTs": []
+      },
+      "shopSkuListToC": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      },
+      "skuListFront": {
+        "responseTs": []
+      },
+      "unLoginDetail": {
+        "responseTs": []
+      },
+      "unLoginList": {
+        "responseTs": []
+      }
+    }
+  },
+  "GoodsTobeEvaluateController": {
+    "fileName": "GoodsTobeEvaluateController",
+    "methods": {
+      "getGoodsTobeEvaluateNum": {
+        "responseTs": []
+      },
+      "pageGoodsTobeEvaluate": {
+        "responseTs": []
+      }
+    }
+  },
+  "ImageBaseController": {
+    "fileName": "ImageBaseController",
+    "methods": {
+      "uploadFile": {
+        "responseTs": []
+      }
+    }
+  },
+  "InviteCustomerRecordController": {
+    "fileName": "InviteCustomerRecordController",
+    "methods": {
+      "countInviteCustomer": {
+        "responseTs": []
+      },
+      "getDistributionSetting": {
+        "responseTs": []
+      },
+      "pageInviteCustomer": {
+        "responseTs": []
+      },
+      "pageMyCustomer": {
+        "responseTs": []
+      },
+      "pageValidInvite": {
+        "responseTs": []
+      }
+    }
+  },
+  "InvoiceProjectBaseController": {
+    "fileName": "InvoiceProjectBaseController",
+    "methods": {
+      "queryProjectSwitchByIds": {
+        "responseTs": []
+      },
+      "findAllInvoiceProject": {
+        "responseTs": []
+      }
+    }
+  },
+  "LoginBaseController": {
+    "fileName": "LoginBaseController",
+    "methods": {
+      "checkAccount": {
+        "responseTs": []
+      },
+      "checkSmsByForgot": {
+        "responseTs": []
+      },
+      "checkSmsByRegister": {
+        "responseTs": []
+      },
+      "checkSmsByWebModalRegister": {
+        "responseTs": []
+      },
+      "login": {
+        "responseTs": []
+      },
+      "loginWithVerificationCode": {
+        "responseTs": []
+      },
+      "sendLoginCode": {
+        "responseTs": []
+      },
+      "passwordByForgot": {
+        "responseTs": []
+      },
+      "patchca": {
+        "responseTs": []
+      },
+      "perfect": {
+        "responseTs": []
+      },
+      "register": {
+        "responseTs": []
+      },
+      "registerModal": {
+        "responseTs": []
+      },
+      "isVisitWithLogin": {
+        "responseTs": []
+      },
+      "validateSmsByForgot": {
+        "responseTs": []
+      }
+    }
+  },
+  "MarketingController": {
+    "fileName": "MarketingController",
+    "methods": {
+      "getMarketingById": {
+        "responseTs": []
+      }
+    }
+  },
+  "MarketingFullGiftController": {
+    "fileName": "MarketingFullGiftController",
+    "methods": {
+      "getGiftByMarketingIdWithOutLogin": {
+        "responseTs": []
+      },
+      "getGiftByMarketingId": {
+        "responseTs": []
+      }
+    }
+  },
+  "MobileConfigController": {
+    "fileName": "MobileConfigController",
+    "methods": {
+      "listConfigs": {
+        "responseTs": []
+      }
+    }
+  },
+  "MobileSettingController": {
+    "fileName": "MobileSettingController",
+    "methods": {
+      "getAboutUs": {
+        "responseTs": []
+      },
+      "getAppShareSetting": {
+        "responseTs": []
+      },
+      "getAppUpgrade": {
+        "responseTs": []
+      }
+    }
+  },
+  "PayBaseController": {
+    "fileName": "PayBaseController",
+    "methods": {
+      "queryGatewayIsOpen": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfig": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfigUsingHEAD": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfig_": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfigUsingOPTIONS": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfigUsingPATCH": {
+        "responseTs": []
+      },
+      "getRecordStatus": {
+        "responseTs": []
+      }
+    }
+  },
+  "PayController": {
+    "fileName": "PayController",
+    "methods": {
+      "checkPayState": {
+        "responseTs": []
+      },
+      "aliPay": {
+        "responseTs": []
+      },
+      "appAliPay": {
+        "responseTs": []
+      },
+      "create": {
+        "responseTs": []
+      },
+      "getAppId": {
+        "responseTs": []
+      },
+      "getLittleProgramOpenId": {
+        "responseTs": []
+      },
+      "getOpenIdByChannel": {
+        "responseTs": []
+      },
+      "getWxConfig": {
+        "responseTs": []
+      },
+      "getWxOpenId": {
+        "responseTs": []
+      },
+      "items": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForApp": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForJSApi": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForLittleProgram": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForMweb": {
+        "responseTs": []
+      }
+    }
+  },
+  "PetCouponInfoController": {
+    "fileName": "PetCouponInfoController",
+    "methods": {
+      "getCouponStarted": {
+        "responseTs": []
+      }
+    }
+  },
+  "PetRechargeableCardController": {
+    "fileName": "PetRechargeableCardController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      }
+    }
+  },
+  "PetTimingCardController": {
+    "fileName": "PetTimingCardController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      }
+    }
+  },
+  "PurchaseBaseController": {
+    "fileName": "PurchaseBaseController",
+    "methods": {
+      "addFollow": {
+        "responseTs": []
+      },
+      "batchAdd": {
+        "responseTs": []
+      },
+      "clearLoseGoods_": {
+        "responseTs": []
+      },
+      "countGoods": {
+        "responseTs": []
+      },
+      "miniFrontInfo": {
+        "responseTs": []
+      },
+      "frontInfo": {
+        "responseTs": []
+      },
+      "queryGoodsMarketingList": {
+        "responseTs": []
+      },
+      "modifyGoodsMarketing": {
+        "responseTs": []
+      },
+      "mergePurchase": {
+        "responseTs": []
+      },
+      "miniInfo": {
+        "responseTs": []
+      },
+      "add": {
+        "responseTs": []
+      },
+      "edit": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "info": {
+        "responseTs": []
+      },
+      "calcMarketingByMarketingId": {
+        "responseTs": []
+      },
+      "calcMarketingByMarketingIdFront": {
+        "responseTs": []
+      }
+    }
+  },
+  "RechargeableCardCodeController": {
+    "fileName": "RechargeableCardCodeController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      }
+    }
+  },
+  "RefundOrderController": {
+    "fileName": "RefundOrderController",
+    "methods": {
+      "queryRefundByReturnOrderNo": {
+        "responseTs": []
+      }
+    }
+  },
+  "ResourceBaseController": {
+    "fileName": "ResourceBaseController",
+    "methods": {
+      "uploadFile": {
+        "responseTs": []
+      }
+    }
+  },
+  "ReturnOrderBaseController": {
+    "fileName": "ReturnOrderBaseController",
+    "methods": {
+      "cancel": {
+        "responseTs": []
+      },
+      "deliver": {
+        "responseTs": []
+      },
+      "findByTid": {
+        "responseTs": []
+      },
+      "findCompletedByTid": {
+        "responseTs": []
+      },
+      "images": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": []
+      },
+      "findReturnReason": {
+        "responseTs": []
+      },
+      "refundOrder": {
+        "responseTs": []
+      },
+      "returnItems": {
+        "responseTs": []
+      },
+      "returnLogistics": {
+        "responseTs": []
+      },
+      "tradeDetails": {
+        "responseTs": []
+      },
+      "findReturnWay": {
+        "responseTs": []
+      },
+      "findById": {
+        "responseTs": []
+      },
+      "findByIdUsingHEAD": {
+        "responseTs": []
+      },
+      "findById_": {
+        "responseTs": []
+      },
+      "findByIdUsingOPTIONS": {
+        "responseTs": []
+      },
+      "findByIdUsingPATCH": {
+        "responseTs": []
+      }
+    }
+  },
+  "ReturnOrderController": {
+    "fileName": "ReturnOrderController",
+    "methods": {
+      "create": {
+        "responseTs": []
+      },
+      "createRefund": {
+        "responseTs": []
+      },
+      "transfer": {
+        "responseTs": []
+      },
+      "isReturnable": {
+        "responseTs": []
+      }
+    }
+  },
+  "SearchHistoryBaseController": {
+    "fileName": "SearchHistoryBaseController",
+    "methods": {
+      "queryDistribute": {
+        "responseTs": []
+      },
+      "addDistribute": {
+        "responseTs": []
+      },
+      "deleteDistribute_": {
+        "responseTs": []
+      },
+      "query": {
+        "responseTs": []
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "queryStore": {
+        "responseTs": []
+      },
+      "addStore": {
+        "responseTs": []
+      },
+      "deleteStore_": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreBaseController": {
+    "fileName": "StoreBaseController",
+    "methods": {
+      "queryStore": {
+        "responseTs": []
+      },
+      "queryStoreFront": {
+        "responseTs": []
+      },
+      "queryStoreDocument": {
+        "responseTs": []
+      },
+      "queryStoreVip": {
+        "responseTs": []
+      },
+      "queryStoreVipFront": {
+        "responseTs": []
+      },
+      "queryStoreUnlogin": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreCateBaseController": {
+    "fileName": "StoreCateBaseController",
+    "methods": {
+      "list": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreController": {
+    "fileName": "StoreController",
+    "methods": {
+      "list": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreCustomerController": {
+    "fileName": "StoreCustomerController",
+    "methods": {
+      "entry": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreExpressCompanyBaseController": {
+    "fileName": "StoreExpressCompanyBaseController",
+    "methods": {
+      "allExpressCompanyList": {
+        "responseTs": []
+      },
+      "findCheckedExpressCompanies": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreFollowBaseController": {
+    "fileName": "StoreFollowBaseController",
+    "methods": {
+      "isGoodsFollow": {
+        "responseTs": []
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "storeFollowNum": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreFollowController": {
+    "fileName": "StoreFollowController",
+    "methods": {
+      "info": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreHistoryBaseController": {
+    "fileName": "StoreHistoryBaseController",
+    "methods": {
+      "query": {
+        "responseTs": []
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreLevelBaseController": {
+    "fileName": "StoreLevelBaseController",
+    "methods": {
+      "queryStoreCustomerLevel": {
+        "responseTs": []
+      },
+      "queryStoreLevelList": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreTobeEvaluateController": {
+    "fileName": "StoreTobeEvaluateController",
+    "methods": {
+      "getStoreTobeEvaluateNum": {
+        "responseTs": []
+      },
+      "pageStoreTobeEvaluate": {
+        "responseTs": []
+      }
+    }
+  },
+  "SystemController": {
+    "fileName": "SystemController",
+    "methods": {
+      "findBaseConfig": {
+        "responseTs": []
+      },
+      "findConfig": {
+        "responseTs": []
+      }
+    }
+  },
+  "SystemGrowthValueConfigController": {
+    "fileName": "SystemGrowthValueConfigController",
+    "methods": {
+      "isGrowthValueOpen": {
+        "responseTs": []
+      }
+    }
+  },
+  "SystemPointsConfigController": {
+    "fileName": "SystemPointsConfigController",
+    "methods": {
+      "query": {
+        "responseTs": []
+      },
+      "isGoodsEvaluate": {
+        "responseTs": []
+      }
+    }
+  },
+  "ThirdLoginController": {
+    "fileName": "ThirdLoginController",
+    "methods": {
+      "sendCode": {
+        "responseTs": []
+      },
+      "queryLinkedAccountFlags": {
+        "responseTs": []
+      },
+      "removeBind_": {
+        "responseTs": []
+      }
+    }
+  },
+  "TimingCardCodeController": {
+    "fileName": "TimingCardCodeController",
+    "methods": {
+      "page": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": []
+      }
+    }
+  },
+  "TradeBaseController": {
+    "fileName": "TradeBaseController",
+    "methods": {
+      "cancel": {
+        "responseTs": []
+      },
+      "commit": {
+        "responseTs": []
+      },
+      "confirm": {
+        "responseTs": []
+      },
+      "customerOrderPage": {
+        "responseTs": []
+      },
+      "defaultPay": {
+        "responseTs": []
+      },
+      "tradeDeliverRecord": {
+        "responseTs": []
+      },
+      "logistics": {
+        "responseTs": []
+      },
+      "distributeDetails": {
+        "responseTs": []
+      },
+      "encloses": {
+        "responseTs": []
+      },
+      "getFreight": {
+        "responseTs": []
+      },
+      "tradeItems": {
+        "responseTs": []
+      },
+      "immediateBuy": {
+        "responseTs": []
+      },
+      "invoice": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": []
+      },
+      "createPayOrder": {
+        "responseTs": []
+      },
+      "payOrder": {
+        "responseTs": []
+      },
+      "getPurchaseItems": {
+        "responseTs": []
+      },
+      "shippItemsByLogisticsNo": {
+        "responseTs": []
+      },
+      "commitResp": {
+        "responseTs": []
+      },
+      "storeBagsBuy": {
+        "responseTs": []
+      },
+      "details": {
+        "responseTs": []
+      }
+    }
+  },
+  "WeChatPublicPlatformController": {
+    "fileName": "WeChatPublicPlatformController",
+    "methods": {
+      "getSign": {
+        "responseTs": []
+      }
+    }
+  },
+  "WechatLoginController": {
+    "fileName": "WechatLoginController",
+    "methods": {
+      "weChatQuickLogin": {
+        "responseTs": []
+      },
+      "weChatBind": {
+        "responseTs": []
+      },
+      "getWechatLoginSetDetail": {
+        "responseTs": []
+      },
+      "getWechatServerStatus": {
+        "responseTs": []
+      }
+    }
+  },
+  "XsiteController": {
+    "fileName": "XsiteController",
+    "methods": {
+      "skuList": {
+        "responseTs": []
+      }
+    }
+  }
+}
